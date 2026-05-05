@@ -23,3 +23,12 @@ Derrota: O jogador perde se completar a forca sem advinhar a palavra.
 a) Número de tentativas: 6 a 10 tentativas erradas.
 b) Tipo de input: Apenas letras (A-Z), sem números ou caracteres especiais.
 c) Validação de input: O sistema deve rejeitar entradas inválidas (ex: mais de uma letra ou símbolos).
+
+5. Requisitos Funcionais 
+
+a) Selecionar palavra aleatória: escolher aleatoriamente uma palavra.
+b) Receber input do utilizador: permitir ao jogador introduzir uma letra por tentativa.
+c) Validar o input: verificar se o input é uma letra válida (A-Z).
+d) Atualizar estado da palavra: mostrar a palavra com as letras corretas e esconder as restantes.
+e) Gerir tentativas: mostrar o número de tentativas conforme o jogador erra uma letra.
+f) Determinar fim de jogo: verificar se o jogador venceu (palavra completa) ou perdeu (tentativas erradas).
