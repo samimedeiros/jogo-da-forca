@@ -32,3 +32,9 @@ c) Validar o input: verificar se o input é uma letra válida (A-Z).
 d) Atualizar estado da palavra: mostrar a palavra com as letras corretas e esconder as restantes.
 e) Gerir tentativas: mostrar o número de tentativas conforme o jogador erra uma letra.
 f) Determinar fim de jogo: verificar se o jogador venceu (palavra completa) ou perdeu (tentativas erradas).
+
+6. Requisitos Não Funcionais (3)
+
+a) Desempenho: O jogo tem que responder às ações do utilizador de forma imediata.
+b) Usabilidade: A interface deve ser simples, clara e fácil de entender.
+c) Manutenção: O código tem que ser organizado e fácil de perceber, para que possa fazer alterações no futuro, como adicionar novas palavras ou mudar regras do jogo.
