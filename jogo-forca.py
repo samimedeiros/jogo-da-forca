@@ -1,3 +1,7 @@
+from jogo import iniciar_jogo
+
+iniciar_jogo()
+
 PALAVRAS = ["python", "programacao", "computador", "desenvolvimento"]
 
 def escolher_palavra():
@@ -55,3 +59,27 @@ def iniciar_jogo():
 
     print("\nGame Over!")
     print("A palavra era:", palavra)
+
+    from jogo import mostrar_palavra, escolher_palavra
+
+
+# 5 casos válidos
+def testar_casos_validos():
+    palavra = "python"
+
+    assert mostrar_palavra(palavra, ["p"]) == "p _ _ _ _ _"
+    assert mostrar_palavra(palavra, ["p", "y"]) == "p y _ _ _ _"
+    assert mostrar_palavra(palavra, list("python")) == "p y t h o n"
+    assert mostrar_palavra(palavra, []) == "_ _ _ _ _ _"
+    assert escolher_palavra() in ["python", "programacao", "computador"]
+
+
+# 5 casos inválidos
+def testar_casos_invalidos():
+    palavra = "python"
+
+    assert mostrar_palavra(palavra, ["d"]) == "_ _ _ _ _ _"
+    assert mostrar_palavra(palavra, ["l"]) == "_ _ _ _ _ _"
+    assert mostrar_palavra(palavra, ["a"]) == "_ _ _ _ _ _"
+    assert mostrar_palavra(palavra, ["python"]) != "python"
+    assert mostrar_palavra(palavra, [" "]) == "_ _ _ _ _ _"
