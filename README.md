@@ -48,3 +48,8 @@ Regras
 O jogador deve seguir as instruções apresentadas no ecrã.
 Cada decisão influencia o resultado do jogo.
 O jogo termina quando o jogador ganhar ou perder.
+
+Instruções de execução
+Certifica de que tem Python instalado.
+Abre o terminal na pasta do projeto.
+Executa o comando:  python main.py
