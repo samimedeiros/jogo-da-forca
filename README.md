@@ -53,3 +53,12 @@ Instruções de execução
 Certifica de que tem Python instalado.
 Abre o terminal na pasta do projeto.
 Executa o comando:  python main.py
+
+Exemplo de utilização
+
+Ao iniciar o jogo, o utilizador verá algo como:
+
+Bem-vindo ao jogo!
+Escolhe uma opção:
+1 - Jogar
+2 - Sair
