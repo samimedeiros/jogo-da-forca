@@ -38,3 +38,7 @@ f) Determinar fim de jogo: verificar se o jogador venceu (palavra completa) ou p
 a) Desempenho: O jogo tem que responder às ações do utilizador de forma imediata.
 b) Usabilidade: A interface deve ser simples, clara e fácil de entender.
 c) Manutenção: O código tem que ser organizado e fácil de perceber, para que possa fazer alterações no futuro, como adicionar novas palavras ou mudar regras do jogo.
+
+Descrição do jogo
+
+Este projeto consiste num jogo desenvolvido em Python, onde o objetivo do é proporcionar uma experiência interativa onde o utilizador deve tomar decisões para avançar.
