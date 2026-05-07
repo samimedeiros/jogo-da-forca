@@ -42,3 +42,9 @@ c) Manutenção: O código tem que ser organizado e fácil de perceber, para que
 Descrição do jogo
 
 Este projeto consiste num jogo desenvolvido em Python, onde o objetivo do é proporcionar uma experiência interativa onde o utilizador deve tomar decisões para avançar.
+
+Regras
+
+O jogador deve seguir as instruções apresentadas no ecrã.
+Cada decisão influencia o resultado do jogo.
+O jogo termina quando o jogador ganhar ou perder.
